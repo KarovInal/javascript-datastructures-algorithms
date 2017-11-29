@@ -1,5 +1,4 @@
-// Бинарный поиск
-//Время выполнения O(log n)
+// Бинарный поиск O(log n)
 function binarySearch(values, target) {
 	//Отсортируем список
 	let sortValues = [...values].sort((a, b) => a - b);
