@@ -13,8 +13,7 @@ function findSmallest(arr) {
 	}
 }
 
-//Сортировка выбором
-//Время выполнения O(n^2)
+//Сортировка выбором O(n^2)
 function selectionSort(arr) {
 	let newArr = [];
   
