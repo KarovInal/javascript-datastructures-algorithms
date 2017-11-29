@@ -2,7 +2,7 @@ function comparator(a, b) {
   return a - b;
 }
 
-//Сртировка пузырьком O(n^2)
+//Сортировка пузырьком O(n^2)
 function bubbleSort(arr, cmp) {
   cmp = cmp || comparator;
   var temp;
